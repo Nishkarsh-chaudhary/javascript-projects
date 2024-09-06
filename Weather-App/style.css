@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1422493757035-1e5e03968f95?q=80&w=1408&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+
+.weather-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+input[type="text"] {
+  width: 95%;
+  padding: 10px;  
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  font-size: large;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#weatherResult {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.weather-info {
+  margin: 10px 0;
+}
+
+.weather-info img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.error {
+  color: red;
+}
+
+#weatherResult {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 2rem;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+/* Styling for weather information paragraphs */
+.weather-info {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+/* Styling for temperature display */
+.weather-info strong {
+  color: #007bff; /* Bootstrap primary color */
+}
+
+/* Styling for the weather icon */
+.weather-info img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* Styling for the error messages */
+.error {
+  color: #dc3545; /* Bootstrap danger color */
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Styling for the weather heading */
+#weatherResult h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
